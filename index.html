@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="./icons/logo.png">
+    <link rel="stylesheet" href="spotify_css.css">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav_option" style="opacity: 1;">
+                    <i class="fa-sharp fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav_option">
+                    <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="lib_option">
+                    <div class="lib_icon  nav_option">
+                        <img src="icons/library_icon.png" alt="Library icon">
+                        <a href="#">Your library</a>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-sharp fa-solid fa-plus"></i>
+                        <i class="fa-sharp fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib_boxes">
+                    <div class="box1">
+                        <p class="box_p1">
+                            Create your first playlist
+                        </p>
+                        <p class="box_p2">
+                            It's easy we'll help you
+                        </p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <div class="box1 box2">
+                        <p class="box_p1">
+                            Let's find some product to follow
+                        </p>
+                        <p class="box_p2">
+                            We'll keep you updated on new episode
+                        </p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main_content">
+            <div class="header">
+                <div class="guide">
+                    <button class="back">
+                        <img src="icons/backward_icon.png" alt="back">
+                    </button>
+                    <button class="forward">
+                        <img src="icons/forward_icon.png" alt="forward">
+                    </button>
+                </div>
+                <div class="another_buttons">
+                    <div class="explore">
+                        <button>Explore Premium</button>
+                    </div>
+                    <div class="install">
+                        <button>
+                            <i class="fa-regular fa-circle-down"></i>
+                            Install App
+                        </button>
+                    </div>
+                    <div class="bell">
+                        <button>
+                            <i class="fa-regular fa-bell"></i>
+                        </button>
+                    </div>
+                </div>
+            </div> 
+            <h2>Recently Played</h2>
+            <div class="card_container">
+                <div class="card">
+                    <img src="icons/card1img.jpeg" alt="card1" class="card_img">
+                    <p class="card_title">Top 50 - Global</p>
+                    <p class="card_info">Your daily updates of most played tacks...</p>
+                </div>
+            </div>
+            <h2>Trending now near you</h2>
+            <div class="card_container">
+                <div class="card">
+                    <img src="icons/card2img.jpeg" alt="card1" class="card_img">
+                    <p class="card_title">Maahi song</p>
+                    <p class="card_info">most famous song sung...</p>
+                </div>
+                <div class="card">
+                    <img src="icons/card3img.jpeg" alt="card1" class="card_img">
+                    <p class="card_title">Aye Zindagi song</p>
+                    <p class="card_info">Santy song...</p>
+                </div>
+                <div class="card">
+                    <img src="icons/card4img.jpeg" alt="card1" class="card_img">
+                    <p class="card_title">O re piya song/p>
+                    <p class="card_info">sung by pakistani singer Rahat Fateh Ali Khan...</p>
+                </div>
+                <div class="card">
+                    <img src="icons/card3img.jpeg" alt="card1" class="card_img">
+                    <p class="card_title"></p>Ishq murshid ost</p>
+                    <p class="card_info">On trending drama ost...</p>
+                </div>
+                <div class="card">
+                    <img src="icons/card4img.jpeg" alt="card1" class="card_img">
+                    <p class="card_title">Alvida song</p>
+                    <p class="card_info">Ost of pakistani drama Alvida...</p>
+                </div>
+                <div class="card">
+                    <img src="icons/card2img.jpeg" alt="card1" class="card_img">
+                    <p class="card_title">bollywood songs</p>
+                    <p class="card_info">famous bollywood movies songs...</p>
+                </div>
+            </div> 
+            <h2>Featured charts</h2>
+            <div class="card_container">
+                <div class="card">
+                    <img src="icons/card5img.jpeg" alt="card1" class="card_img">
+                    <p class="card_title">Global songs</p>
+                    <p class="card_info">world wide most famous song...</p>
+                </div>
+                <div class="card">
+                    <img src="icons/card6img.jpeg" alt="card1" class="card_img">
+                    <p class="card_title">Top songs</p>
+                    <p class="card_info">Top latest hindi songs...</p>
+                </div>
+                <div class="card">
+                    <img src="icons/card2img.jpeg" alt="card1" class="card_img">
+                    <p class="card_title">Pakistani ost</p>
+                    <p class="card_info">Most popular songs...</p>
+                </div>
+                <div class="card">
+                    <img src="icons/card3img.jpeg" alt="card1" class="card_img">
+                    <p class="card_title">Aye khuda song</p>
+                    <p class="card_info">this song acted by Imran Hashmi</p>
+                </div>
+                <div class="card">
+                    <img src="icons/card4img.jpeg" alt="card1" class="card_img">
+                    <p class="card_title">Tum he ho song</p>
+                    <p class="card_info">Sung by Arijit...</p>
+                </div>
+                <div class="card">
+                    <img src="icons/card5img.jpeg" alt="card1" class="card_img">
+                    <p class="card_title">Rataan lambiyan song</p>
+                    <p class="card_info">A idian emotional song...</p>
+                </div>
+            </div> 
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+        </div> 
+        <div class="music_player">
+            <div class="left_icons">
+                <div class="music_image">
+                    <img src="icons/small_image.jpeg" alt="image">
+                </div>
+                <div class="music_p">
+                    <p class="music_p1">Daylight</p>
+                    <p class="music_p2">David khushner</p>
+                </div>
+                <div class="music_icons">
+                    <div class="heart">
+                        <img src="icons/heart (1).png" alt="heart">
+                    </div>
+                    <div class="keyboard">
+                        <img src="icons/keyboard.png" alt="keyboard">
+                    </div>     
+                </div>
+            </div>
+            <div class="player">
+                <div class="play_icon">
+                    <img src="icons/player_icon1.png" alt="player_icon1" class="play">
+                    <img src="icons/player_icon2.png" alt="player_icon2" class="play">
+                    <img src="icons/player_icon3.png" alt="player_icon3" class="play play1">
+                    <img src="icons/player_icon4.png" alt="player_icon4" class="play">
+                    <img src="icons/player_icon5.png" alt="player_icon5" class="play">
+                </div>
+                <div class="playsong">
+                    <span>00:00</span>
+                    <input type="range" class="range2" min="0" max="100" step="1">
+                    <span>3:33</span>
+                </div>
+            </div>
+            <div class="bar">
+                <img src="icons/video_player.png" alt="video" class="video">
+                <img src="icons/mic.png" alt="mic" class="mic">
+                <img src="icons/3bars.png" alt="bars" class="bars">
+                <img src="icons/photo.png" alt="photo" class="photo">
+                <img src="icons/voice.png" alt="voice" class="voice">  
+                <input type="range" class="range" id="range1">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
